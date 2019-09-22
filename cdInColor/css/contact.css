@@ -1,0 +1,157 @@
+body,html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrepper {
+	 height: 100%;
+ display: grid;
+ grid-template-rows: 1fr auto;
+}
+
+.conteiner {
+	width: 100%;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	width: 100%;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;		
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name {
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.menu-logo {
+	display: flex;
+	align-items: center;
+}
+
+.discription {
+	margin-left: 9px;
+}
+
+.avatar {
+	width: 57px;
+	height: 57px;
+	background: url(../image/avatar.jpg);
+	background-size: cover; 
+	border-radius: 50%;
+}
+
+.menu-list {
+	display: flex;
+	align-items: center;
+}
+
+.menu-list a{
+	text-decoration: none;
+	color: #2b2a2c;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	font-weight: 800;
+	margin-right: 34px;
+}
+
+.menu-list nav a:hover {
+	border-bottom: 3px solid #2b2a2c;	
+}
+
+.menu-button {
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 2px solid #2b2a2c;
+	padding: 13px 22px;
+	transition: .6s;
+}
+
+.menu-button:hover {
+	color: #ffffff;
+	background-color: #2b2a2c;
+}
+
+.footer {
+	background-color: #2b2a2c;
+	padding: 20px 0;
+	margin:0;
+	color: #8d8d8e;
+
+}
+
+.footer a {
+	color: #8d8d8e;
+	text-decoration: none;
+}
+
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-text {
+	display: flex;
+	align-items: center;
+}
+
+.copyright {
+	padding-right: 16px;
+	margin-right: 16px;
+	border-right: 1px solid #413f41;
+	font-size: 14px;
+}
+
+.footer-social__link {
+	font-size: 20px;
+	margin-right: 13px;
+}
+
+.footer-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-menu a {
+	font-size: 14px;
+	margin-right: 30px;
+}
+
+.footer-menu nav a:hover {
+	border-bottom: 3px solid #413f41;
+}
+
+.footer-button {
+	letter-spacing: 0.7px;
+	font-size: 14px;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 1px solid #8d8d8e;
+	padding: 8px 22px;
+	transition: .3s;
+}
+
+.footer-button:hover {
+	background-color: #F1F4E6;
+}

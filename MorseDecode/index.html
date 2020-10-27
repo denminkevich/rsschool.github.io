@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Morse Decode</title>
+</head>
+<body>
+  <header>
+    <h1>Morse generator</h1>
+  </header>
+  <section>
+    <p class="main-paragraph">Choose your letters: </p> 
+    <div class="firstEight row">
+      <input type="checkbox" class="checkBoxLet" name="letter" value="а"> А 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="б"> Б 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="в"> В 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="г"> Г 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="д"> Д 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="е"> Е 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ж"> Ж 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="з"> З 
+    </div>
+    <div class="secEight row">
+      <input type="checkbox" class="checkBoxLet" name="letter" value="и"> И 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="й"> Й 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="к"> К 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="л"> Л 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="м"> М 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="н"> Н 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="о"> О 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="п"> П 
+    </div>
+    <div class="thirdEight row">
+      <input type="checkbox" class="checkBoxLet" name="letter" value="р"> Р 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="с"> С 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="т"> Т 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="у"> У 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ф"> Ф 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="х"> Х 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ц"> Ц 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ч"> Ч
+    </div>
+    <div class="fourthEight row">
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ш"> Ш 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="щ"> Щ 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ъ"> Ъ 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ы"> Ы 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ь"> ь 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="э"> Э 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="ю"> Ю 
+      <input type="checkbox" class="checkBoxLet" name="letter" value="я"> Я 
+    </div>
+    <input type="number" class="numInput" placeholder="Число букв"> 
+    <input type="checkbox" name="ShowOutput" id="OutputShow" class="ShowOutput"> Показать ли вывод?
+  </section>
+  <input type="text" class="output" readonly>
+  <button class="mainBtn" onclick="generate()">Сгенерировать</button>
+</body>
+<script src="main.js"></script>
+</html>
